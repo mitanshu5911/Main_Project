@@ -5,13 +5,27 @@
 header
 {
     padding: 3.5vh;
-    background-color:#a5c926;
+    background-color:#24aeb1;
 }
 .navbar
 {
     display: flex;
     justify-content: right;
     /* float: right; */
+}
+.logo img{
+    width: 8vh;
+    
+}
+input.searchi
+{
+    margin-right: 20vw;
+    padding-left: 1vw;
+    width: 35vw;
+    height: 7vh;
+    border: none;
+    border-radius: 1vh;
+
 }
 ul.ulnavbar li
 {
@@ -20,16 +34,17 @@ ul.ulnavbar li
 }
 ul.ulnavbar li a
 {
-    
+
     color: black;
     text-decoration: none;
 }
 button.signin
 {
+    margin: auto;
     width: 8vw;
     height: 6vh;
     font-size: 1.20em;
-    background-color:#a5c926;
+    background-color:#24aeb1;
     border: 1.5px solid white;
     border-radius: 5px;
     color: white;
