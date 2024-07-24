@@ -109,6 +109,8 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #24aeb1;
     color:white;
     font-size:15px;
+    border: #24aeb1;
+    border-radius: 3px;
 }
 
 .or{

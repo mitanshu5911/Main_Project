@@ -15,7 +15,19 @@ header
 }
 .logo img{
     width: 8vh;
+    margin-right: 0.5vw;
+    /* position: left; */
     
+}
+p.logop
+{
+    color: azure;
+    font-size: 1.3rem;
+        font-family:  "Ubuntu", sans-serif;
+        font-weight: 50px;
+        font-style: bold;
+    margin-top: 2vh;
+    margin-right: 15vw;
 }
 input.searchi
 {
