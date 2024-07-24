@@ -18,6 +18,12 @@ ul.ulnavbar li
     margin: 0 1.5vw;
     display: inline;
 }
+ul.ulnavbar li a
+{
+    
+    color: black;
+    text-decoration: none;
+}
 button.signin
 {
     width: 8vw;
