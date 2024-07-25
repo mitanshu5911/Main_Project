@@ -13,12 +13,10 @@ header
     justify-content: right;
     /* float: right; */
 }
-.logo img{
-    width: 8vh;
-    margin-right: 0.5vw;
-    /* position: left; */
-    
+#logo{
+    padding: 1vw;
 }
+
 p.logop
 {
     color: azure;
@@ -42,7 +40,7 @@ input.searchi
 ul.ulnavbar li
 {
     margin: 0 1.5vw;
-    display: inline;
+    display: flex;
 }
 ul.ulnavbar li a
 {
@@ -50,6 +48,7 @@ ul.ulnavbar li a
     color: black;
     text-decoration: none;
 }
+
 button.signin
 {
     margin: auto;
