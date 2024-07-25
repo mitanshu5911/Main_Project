@@ -4,6 +4,9 @@
     
    
 }
+/* -------header------- */
+
+/* ----main--- */
 body{
    
     background-color:  #f6f6f7; 
@@ -21,7 +24,7 @@ body{
      display: flex;
      align-self:center;
      margin:auto;
-     margin-top:100px;
+     margin-top:50px;
     
 
 }
@@ -109,6 +112,8 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #24aeb1;
     color:white;
     font-size:15px;
+    border: #24aeb1;
+    border-radius: 3px;
 }
 
 .or{
