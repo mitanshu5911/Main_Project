@@ -3,6 +3,14 @@
     font-family: Arial;
     border:border-box;
 }
+.logo{
+    /* padding: auto; */
+    margin-top: 2.5vh ;
+    /* margin-right: 10vh; */
+    font-size: 1.5rem;
+    color: #064648;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .navbar{
     height:60px;
     background-color:#24aeb1;
@@ -27,7 +35,11 @@
 .border:hover{
     border:1.5px solid white;
 }
-
+.Signin
+{
+    text-decoration: none;
+    color: white;
+}
 
 
 
