@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----Header----- */
+
+.main_navbar
+{
+    height: 10vh;
+    background-color: #24aeb1;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.main_navbar .navbarlogo {
+    /* margin-top: 2vh; */
+    /* border: 1px solid red; */
+    height: 8vh;
+    width: 15vw;
+}
+
+
+.address p.addfirst {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    /* margin-top: 5px; */
+   margin-bottom: 0;
+   padding-bottom: 0;
+   /* border: 1px solid red; */
+}
+
+.address p.addsecond {
+    font-size: 1rem;
+    margin-left: 3px;
+    margin-top: -2vh;
+    padding: 0;
+    padding-top: 3vh;
+}
+
+.address .addicon {
+    display: flex;
+    height: 3vh;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: -1px;
+    /* padding-top: 3vh; */
+}
+.address .addicon #loclogo
+{
+    margin-top: -8px;
+    /* border: 1px solid red; */
+}
+
+
+/* ------search------- */
+
+
+ .main_navbar .navsearch
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+    height: 40px;
+    width: 620px;
+    margin-left: 2.5vw;
+    border-radius: 4px;
+    outline: none;
+}
+.main_navbar .navsearch .searchselect {
+    background-color: #f3f3f3 !important;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border: none !important;
+}
+
+.navsearch .searchinput {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding-left: 1.5vw;
+}
+.navsearch .searchicon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: white;
+    /* border-radius: 4px; */
+     border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    color: #0f1111;
+    cursor: pointer;
+}
+.searchinput:hover {
+    border: none !important;
+    outline: none;
+}
+
+.navsign
+{
+    margin-top: 1vh;
+    height: 8vh;
+    /* border: 1px solid black; */
+    margin-left: 2vw;
+}
+
+.navsign .sign1
+{
+    height: 4vh;
+    /* border: 1px solid red; */
+    padding-top: 1vh;
+}
+.navsign .sign1 p
+{
+    font-size: 0.7rem;
+}
+.navsign .sign2
+{
+    height: 4vh;
+    /* border: 1px solid yellow; */
+    margin-top: -1vh;
+}
+.navsign .sign2 p
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+a.sign{
+
+    color: white;
+    text-decoration: none;
+}
+
+.navreturn
+{
+    margin-top: 1vh;
+    height: 8vh;
+    /* border: 1px solid black; */
+    margin-left: 3vw;
+}
+.navreturn .return1
+{
+    height: 4vh;
+    /* border: 1px solid red; */
+    padding-top: 1vh;
+}
+a.return{
+    color: white;
+    text-decoration: none;
+}
+.navreturn .return1 p
+{
+    font-size: 0.7rem;
+}
+.navreturn .return2
+{
+    height: 4vh;
+    /* border: 1px solid yellow; */
+    margin-top: -1vh;
+}
+.navreturn .return2 p
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.navcart
+{
+    /* margin-top: 1vh; */
+    height: 8vh;
+    /* border: 1px solid black; */
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.cart
+{
+    text-decoration: none;
+    color: white;
+}
+.navcart .cart1 i{
+    font-size: 30px;
+}
+.navcart .cart2
+{
+    height: 4vh;
+    /* border: 1px solid yellow; */
+    margin-top: 2vh;
+    margin-left: 4px;
+}
+.navcart .cart2 p
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* ----------Panel------- */
+.main_panel
+{
+    padding-top: 2.5vh;
+    padding-bottom: 1vh;
+    /* margin-top: 1vh; */
+    /* padding-bottom: 0.5vh; */
+    height: 6vh;
+    background-color: #24aeb1 !important;
+    display: flex;
+    color: white !important;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    font-weight: 500;
+    /* margin-left: 0.5vw; */
+}
+.panelops p {
+    display: inline-block;
+    margin-left: 3vw;
+    padding-right: 3vw;
+    border-right: 1px solid #0a4b4e;
+}
+
+p.Medicines {
+    margin-left: 7vw !important;
+}
+
+p.Beauty {
+    border: none !important;
+}
+
+.panelops p a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.panelops {
+    width: 70%;
+    margin-left: 2vh;
+    font-size: 1rem !important;
+}
+
+.paneldeals {
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+}
