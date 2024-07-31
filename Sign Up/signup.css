@@ -75,6 +75,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     border: none; 
     outline: none;
     border-bottom: 1px solid #24aeb1; 
+    
 }
 
 .inner-form button{
