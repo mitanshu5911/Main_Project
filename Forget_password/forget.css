@@ -12,18 +12,90 @@ header{
     height: 15vh;
     width: 100vw;
 }
+body
+{
+    background-color: #24aeb1;
+}
 
-main
+/* main
 {
     width: 100vw;
     height: 85vh;
     /* margin: 0; */
-    align-content: center;
-    background-color: #24aeb1;
-}
+    /* align-content: center;
+    background-color: #24aeb1; */ 
 .phone
 {
+    margin-top: 8vh;
+    margin-right: 5vw;
+    position: relative;
+    float: right;
+    padding: 2vh;
+    border-radius: 20px;
+    color: #054b4c;
+    text-align: center;
+    justify-content: center;
     width: 50vh;
     height: 50vh;
     background-color: white;
+    box-shadow:0px 0px 3vw #054b4c;
+    ;
+}
+.phone h2
+{
+    padding: 2vh 0;
+    /* height: 2vh; */
+}
+.phone .number
+{
+    margin: auto;
+    margin-top: 5vh;
+
+    /* padding: auto; */
+    border: none;
+    border-bottom: 2px solid #054b4c ;
+    width: 17vw;
+}
+.phone .number select{
+    height: 5vh;
+    width: 4vw;
+    border: none;
+    outline: none;
+    /* border: 1px solid red; */
+    /* appearance: none; */
+    /* background-position: calc(100% - 100px) center; Position custom arrow */
+}
+.phone .number input{
+    margin-left: 0.5vw;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    outline: none;
+    /* text-align: center; */
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.phone button
+{
+    margin-top: 4vh;
+background: #24aeb1;
+width: 10vh;
+  height: 10vh;
+  border: none;
+  border-radius: 10vh;
+}
+.phone button i
+{
+    /* width: 10vh; */
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+}
+p.otp
+{
+    margin: 5vh auto;
 }
