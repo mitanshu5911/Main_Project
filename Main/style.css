@@ -19,10 +19,14 @@
 .main_navbar .navbarlogo {
     /* margin-top: 2vh; */
     /* border: 1px solid red; */
-    height: 8vh;
+    height: 10vh;
     width: 15vw;
+    /* justify-content: center; */
+    background-image: url(/images/Main_logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 
 .address p.addfirst {
     color: #cccccc;
