@@ -12,22 +12,26 @@ header{
     height: 15vh;
     width: 100vw;
 }
-body
+ /* main
 {
-    background-color: #24aeb1;
+display: flex;
+} */
+.main_img
+{
+    margin: auto;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    width: 30vw;
+    height: 60vh;
+    float: left;
+    background-image: url(/images/forgot\ i.webp);
+     background-repeat: no-repeat;
+    background-size: contain; 
 }
-
-/* main
-{
-    width: 100vw;
-    height: 85vh;
-    /* margin: 0; */
-    /* align-content: center;
-    background-color: #24aeb1; */ 
 .phone
 {
-    margin-top: 8vh;
-    margin-right: 5vw;
+    margin-top: 15vh;
+    margin-right: 10vw;
     position: relative;
     float: right;
     padding: 2vh;
@@ -38,7 +42,7 @@ body
     width: 50vh;
     height: 50vh;
     background-color: white;
-    box-shadow:0px 0px 3vw #054b4c;
+    box-shadow:0px 0px 3.5vw #054b4c;
     ;
 }
 .phone h2
