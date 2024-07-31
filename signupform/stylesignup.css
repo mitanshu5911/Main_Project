@@ -23,8 +23,8 @@ body{
     border: 2px solid #fff; 
     color: #fff;
     border-radius: 12px;
-    padding: 30px 40px;
-    height: 600px;
+    padding: 10px 40px;
+    /* height: 600px; */
     
   }
   .wrapper h1{
