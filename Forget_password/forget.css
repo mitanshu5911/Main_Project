@@ -50,6 +50,9 @@ display: flex;
     padding: 2vh 0;
     /* height: 2vh; */
 }
+.phone p{
+    font-size: 1rem;
+}
 .phone .number
 {
     margin: auto;
@@ -102,4 +105,5 @@ width: 10vh;
 p.otp
 {
     margin: 5vh auto;
+    font-size: 0.85rem;
 }
