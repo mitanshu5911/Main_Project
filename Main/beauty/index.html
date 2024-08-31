@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+  
+      <header style="display:none;">
+        <div class="main_navbar">
+            <div class="navbarlogo">
+                <!-- <img clas="mainlogo"src="/images/Main_logo.png" alt="#"> -->
+            </div>
+            <div class="address">
+                <p class="addfirst"> Deliver to</p>
+                <div class="addicon">
+                    <i class="fa-solid fa-location-dot " id="loclogo"></i>
+                    <p class="addsecond"> India </p>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select class="searchselect">
+                    <option> All </option>
+                </select>
+                <input class="searchinput" type="search" placeholder="Search...">
+                <div class="searchicon">
+                  <button type="submit">  <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+
+            <div class="navsign">
+                <div class="sign1">
+                    <a href="../Sign in/Signin.html" class="sign">
+                        <p>Hello, Sign in</p>
+                    </a>
+                </div>
+                <div class="sign2">
+                    <a href="../Sign in/Signin.html" class="sign">
+                        <p>Accounts & lists</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="navcart">
+                <div class="cart1">
+                    <a href="#" class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+                <div class="cart2">
+                    <a href="#" class="cart">
+                        <p>Cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <a href="#">
+                    <button type="button"><i class="fa-solid fa-user"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="main_panel">
+            <div class="panelops">
+                <p class="Medicines"><a href="#">Medicines</a> </p>
+                <p><a href="#">Wellness</a> </p>
+                <p><a href="#">Lab Tests</a> </p>
+                <p><a href="#">Doctor</a> </p>
+                <p class="Beauty"><a href="#">Beauty</a> </p>
+            </div>
+        </div>
+    </header>
+        <div class="panel"  style="display: none;">
+            <a href="#">Medicine </a>
+            <a href="#">Personal care </a>
+            <a href="#">Health conditions</a>
+            <a href="#">Vitamins ans supplement</a>
+            <a href="#">Diabetes</a>
+            <a href="">Health devices </a>
+            <a href="">Health article</a>
+
+        </div>
+        <hr>
+    </header>
+   <main>
+    <div class="main-cont">
+
+      <!-- filter div -->
+       <div class="main-filter">
+        <h2>Filters</h1>
+      
+    
+        <div class="filter-category">
+            <h3> Category</h3>
+            <hr>
+       <label>
+        <input type="radio" name="fruit" value="banana" >
+          Skin care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Hair care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        oral care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Eye care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Lips
+      </label>
+      <br>
+      <br>
+
+
+
+        </div>
+        <div class="filter-category">
+            <h3> Sub-Category</h3>
+            <hr>
+       <label>
+        <input type="radio" name="fruit" value="banana" >
+          Skin cream 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Sunscreen
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Face Wash
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Acne care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Body lotions
+      </label>
+      <br>
+      <br>
+        </div>
+        <div class="filter-category">
+            <h3> Brands</h3>
+            <hr>
+       <label>
+        <input type="radio" name="fruit" value="banana" >
+          MamaEarth
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        L'oreal
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Krishna's Herbs
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Organic Harvest
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Wish Care
+      </label>
+      <br>
+      <br>
+
+
+
+        </div>
+       </div>
+
+
+       <div class="main-personal">
+        <h2> Personal care</h2>
+
+
+        <div class="main">
+
+          <div class="card">
+            <div class="discount-badge">13% OFF</div>
+            <img src="images/image1.avif" alt="Product Image" class="product-image">
+            <div class="rating">
+                <span class="star">★</span>
+                <span>4.6</span>
+            </div>
+            <h2 class="product-title">Organic Harvest Vitamin B Skin Care Beauty Gift Set - (6Pcs)</h2>
+            <div class="tags">
+                <span class="tag">Skin care</span>
+                <span class="tag">Serum</span>
+            </div>
+            <p class="marketed-by">Mkt: British Biologicals</p>
+            <div class="price">
+                <span class="current-price">₹ 1470.45</span>
+                <span class="original-price">MRP ₹ 1965.00</span>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+
+       
+        <div class="card">
+          <div class="discount-badge">13% OFF</div>
+          <img src="images/image2.avif" alt="Product Image" class="product-image">
+          <div class="rating">
+              <span class="star">★</span>
+              <span>5.0</span>
+          </div>
+          <h2 class="product-title">Mamaearth Skin Illuminate Face Serum With Vitamin C & Turmeric (15ml)  </h2>
+          <div class="tags">
+              <span class="tag">Face serum</span>
+              <span class="tag">Lotion</span>
+          </div>
+          <p class="marketed-by">Mkt: British Biologicals</p>
+          <div class="price">
+              <span class="current-price">₹ 684.65</span>
+              <span class="original-price">MRP ₹ 695.00</span>
+          </div>
+          <button class="add-to-cart">ADD TO CART</button>
+      </div>
+
+       
+      <div class="card">
+        <div class="discount-badge">12% OFF</div>
+        <img src="images/image3.avif" alt="Product Image" class="product-image">
+        <div class="rating">
+            <span class="star">★</span>
+            <span>3.1</span>
+        </div>
+        <h2 class="product-title">
+            Mamaearth Vitamin C Daily Glow Face Serum (10ml)</h2>
+        <div class="tags">
+            <span class="tag">Face serum</span>
+            <span class="tag">Lotion</span>
+        </div>
+        <p class="marketed-by">Mkt: British Biologicals</p>
+        <div class="price">
+            <span class="current-price">₹ 575.65</span>
+            <span class="original-price">MRP ₹ 695.00</span>
+        </div>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+
+    
+    <div class="card">
+      <div class="discount-badge">17% OFF</div>
+      <img src="images/image4.webp" alt="Product Image" class="product-image">
+      <div class="rating">
+          <span class="star">★</span>
+          <span>2.9</span>
+      </div>
+      <h2 class="product-title">Neem Face Wash (100ml)</h2>
+      <div class="tags">
+          <span class="tag">Face Wash</span>
+          <span class="tag">Gel</span>
+      </div>
+      <p class="marketed-by">Mkt: British Biologicals</p>
+      <div class="price">
+          <span class="current-price">₹ 289.65</span>
+          <span class="original-price">MRP ₹ 378.00</span>
+      </div>
+      <button class="add-to-cart">ADD TO CART</button>
+  </div>
+
+  
+  <div class="card">
+    <div class="discount-badge">13% OFF</div>
+    <img src="images/image5.avif" alt="Product Image" class="product-image">
+    <div class="rating">
+        <span class="star">★</span>
+        <span>5.0</span>
+    </div>
+    <h2 class="product-title">The Man Company Shea Butter 60gm</h2>
+    <div class="tags">
+        <span class="tag">Skin care</span>
+        <span class="tag">Cream</span>
+    </div>
+    <p class="marketed-by">Mkt: British Biologicals</p>
+    <div class="price">
+        <span class="current-price">₹ 454.65</span>
+        <span class="original-price">MRP ₹ 595.00</span>
+    </div>
+    <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/image6.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>4.0</span>
+  </div>
+  <h2 class="product-title">Mamaearth Vitamin C Daily Glow (30ml)</h2>
+  <div class="tags">
+      <span class="tag">Care</span>
+      <span class="tag">Cream</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 394.65</span>
+      <span class="original-price">MRP ₹ 495.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/image7.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>3.8</span>
+  </div>
+  <h2 class="product-title">Juice Beauty Oil-Free Moisturizer</h2>
+  <div class="tags">
+      <span class="tag">Skin Care</span>
+      <span class="tag">Cream</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 474.65</span>
+      <span class="original-price">MRP ₹ 595.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/image8.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>4.9</span>
+  </div>
+  <h2 class="product-title">
+    L'Oreal Paris Glycolic Bright Skin</h2>
+  <div class="tags">
+      <span class="tag">Skin care</span>
+      <span class="tag">Serum</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 394.65</span>
+      <span class="original-price">MRP ₹ 435.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/image9.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>4.8</span>
+  </div>
+  <h2 class="product-title">
+    COAL CLEAN BEAUTY Face Scrub For Her (50g)</h2>
+  <div class="tags">
+      <span class="tag">Skin Care</span>
+      <span class="tag">Scrub</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 448.65</span>
+      <span class="original-price">MRP ₹ 595.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+<div class="card">
+  <div class="discount-badge">23% OFF</div>
+  <img src="images/imgae10.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>4.1</span>
+  </div>
+  <h2 class="product-title">WishCare Tinted Ceramide Lip Balm with SPF 50++</h2>
+  <div class="tags">
+      <span class="tag">Lips</span>
+      <span class="tag">Lip Balm</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 254.65</span>
+      <span class="original-price">MRP ₹ 300.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">23% OFF</div>
+  <img src="images/image11.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>3.9</span>
+  </div>
+  <h2 class="product-title">Lacto Calamine Daily Cleansing</h2>
+  <div class="tags">
+      <span class="tag">Wipes</span>
+      <span class="tag">Face Wipes</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 175.65</span>
+      <span class="original-price">MRP ₹ 200.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+
+<div class="card">
+  <div class="discount-badge">15% OFF</div>
+  <img src="images/image12.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>4.5</span>
+  </div>
+  <h2 class="product-title">L'Oreal Paris Revitalift Hyaluronic Acid Eye Serum (20 ml)</h2>
+  <div class="tags">
+      <span class="tag">Eye Care</span>
+      <span class="tag">Gel</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 494.65</span>
+      <span class="original-price">MRP ₹ 590.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+       <div>
+    </div>
+   </main>
+</body>
+</html>
+
