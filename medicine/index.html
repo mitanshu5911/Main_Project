@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+  
+      <header style="display:none;">
+        <div class="main_navbar">
+            <div class="navbarlogo">
+                <!-- <img clas="mainlogo"src="/images/Main_logo.png" alt="#"> -->
+            </div>
+            <div class="address">
+                <p class="addfirst"> Deliver to</p>
+                <div class="addicon">
+                    <i class="fa-solid fa-location-dot " id="loclogo"></i>
+                    <p class="addsecond"> India </p>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select class="searchselect">
+                    <option> All </option>
+                </select>
+                <input class="searchinput" type="search" placeholder="Search...">
+                <div class="searchicon">
+                  <button type="submit">  <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+
+            <div class="navsign">
+                <div class="sign1">
+                    <a href="../Sign in/Signin.html" class="sign">
+                        <p>Hello, Sign in</p>
+                    </a>
+                </div>
+                <div class="sign2">
+                    <a href="../Sign in/Signin.html" class="sign">
+                        <p>Accounts & lists</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="navcart">
+                <div class="cart1">
+                    <a href="#" class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+                <div class="cart2">
+                    <a href="#" class="cart">
+                        <p>Cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <a href="#">
+                    <button type="button"><i class="fa-solid fa-user"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="main_panel">
+            <div class="panelops">
+                <p class="Medicines"><a href="#">Medicines</a> </p>
+                <p><a href="#">Wellness</a> </p>
+                <p><a href="#">Lab Tests</a> </p>
+                <p><a href="#">Doctor</a> </p>
+                <p class="Beauty"><a href="#">Beauty</a> </p>
+            </div>
+        </div>
+    </header>
+        <div class="panel"  style="display: none;">
+            <a href="#">Medicine </a>
+            <a href="#">Personal care </a>
+            <a href="#">Health conditions</a>
+            <a href="#">Vitamins ans supplement</a>
+            <a href="#">Diabetes</a>
+            <a href="">Health devices </a>
+            <a href="">Health article</a>
+
+        </div>
+        <hr>
+    </header>
+   <main>
+    <div class="main-cont">
+
+      <!-- filter div -->
+       <div class="main-filter">
+        <h2>Filters</h1>
+      
+    
+        <div class="filter-category">
+            <h3> Category</h3>
+            <hr>
+       <label>
+        <input type="radio" name="fruit" value="banana" >
+          Skin care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Hair care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        oral care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Elderly care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Baby
+      </label>
+      <br>
+      <br>
+
+
+
+        </div>
+        <div class="filter-category">
+            <h3> Sub-Category</h3>
+            <hr>
+       <label>
+        <input type="radio" name="fruit" value="banana" >
+          Skin care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Hair care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        oral care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Elderly care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Baby
+      </label>
+      <br>
+      <br>
+        </div>
+        <div class="filter-category">
+            <h3> Brands</h3>
+            <hr>
+       <label>
+        <input type="radio" name="fruit" value="banana" >
+          Skin care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Hair care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        oral care
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Elderly care 
+      </label>
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="fruit" value="banana">
+        Baby
+      </label>
+      <br>
+      <br>
+
+
+
+        </div>
+       </div>
+
+
+       <div class="main-personal">
+        <h2> Personal care</h2>
+
+
+        <div class="main">
+
+          <div class="card">
+            <div class="discount-badge">13% OFF</div>
+            <img src="images/pc1.avif" alt="Product Image" class="product-image">
+            <div class="rating">
+                <span class="star">★</span>
+                <span>5.0</span>
+            </div>
+            <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+            <div class="tags">
+                <span class="tag">Fitness</span>
+                <span class="tag">Family Nutrition</span>
+            </div>
+            <p class="marketed-by">Mkt: British Biologicals</p>
+            <div class="price">
+                <span class="current-price">₹ 604.65</span>
+                <span class="original-price">MRP ₹ 695.00</span>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+
+       
+        <div class="card">
+          <div class="discount-badge">13% OFF</div>
+          <img src="images/pc1.avif" alt="Product Image" class="product-image">
+          <div class="rating">
+              <span class="star">★</span>
+              <span>5.0</span>
+          </div>
+          <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+          <div class="tags">
+              <span class="tag">Fitness</span>
+              <span class="tag">Family Nutrition</span>
+          </div>
+          <p class="marketed-by">Mkt: British Biologicals</p>
+          <div class="price">
+              <span class="current-price">₹ 604.65</span>
+              <span class="original-price">MRP ₹ 695.00</span>
+          </div>
+          <button class="add-to-cart">ADD TO CART</button>
+      </div>
+
+       
+      <div class="card">
+        <div class="discount-badge">13% OFF</div>
+        <img src="images/pc1.avif" alt="Product Image" class="product-image">
+        <div class="rating">
+            <span class="star">★</span>
+            <span>5.0</span>
+        </div>
+        <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+        <div class="tags">
+            <span class="tag">Fitness</span>
+            <span class="tag">Family Nutrition</span>
+        </div>
+        <p class="marketed-by">Mkt: British Biologicals</p>
+        <div class="price">
+            <span class="current-price">₹ 604.65</span>
+            <span class="original-price">MRP ₹ 695.00</span>
+        </div>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+
+    
+    <div class="card">
+      <div class="discount-badge">13% OFF</div>
+      <img src="images/pc1.avif" alt="Product Image" class="product-image">
+      <div class="rating">
+          <span class="star">★</span>
+          <span>5.0</span>
+      </div>
+      <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+      <div class="tags">
+          <span class="tag">Fitness</span>
+          <span class="tag">Family Nutrition</span>
+      </div>
+      <p class="marketed-by">Mkt: British Biologicals</p>
+      <div class="price">
+          <span class="current-price">₹ 604.65</span>
+          <span class="original-price">MRP ₹ 695.00</span>
+      </div>
+      <button class="add-to-cart">ADD TO CART</button>
+  </div>
+
+  
+  <div class="card">
+    <div class="discount-badge">13% OFF</div>
+    <img src="images/pc1.avif" alt="Product Image" class="product-image">
+    <div class="rating">
+        <span class="star">★</span>
+        <span>5.0</span>
+    </div>
+    <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+    <div class="tags">
+        <span class="tag">Fitness</span>
+        <span class="tag">Family Nutrition</span>
+    </div>
+    <p class="marketed-by">Mkt: British Biologicals</p>
+    <div class="price">
+        <span class="current-price">₹ 604.65</span>
+        <span class="original-price">MRP ₹ 695.00</span>
+    </div>
+    <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+
+<div class="card">
+  <div class="discount-badge">13% OFF</div>
+  <img src="images/pc1.avif" alt="Product Image" class="product-image">
+  <div class="rating">
+      <span class="star">★</span>
+      <span>5.0</span>
+  </div>
+  <h2 class="product-title">D Protin Chocolate Powder 500 gm</h2>
+  <div class="tags">
+      <span class="tag">Fitness</span>
+      <span class="tag">Family Nutrition</span>
+  </div>
+  <p class="marketed-by">Mkt: British Biologicals</p>
+  <div class="price">
+      <span class="current-price">₹ 604.65</span>
+      <span class="original-price">MRP ₹ 695.00</span>
+  </div>
+  <button class="add-to-cart">ADD TO CART</button>
+</div>
+
+
+
+       <div>
+    </div>
+   </main>
+</body>
+</html>
