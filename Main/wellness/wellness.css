@@ -179,18 +179,6 @@ a.sign{
 {
     border: 2px solid rgb(13, 110, 100);
 }
-button.b-canvas
-{
-    padding: auto;
-    background: white;
-    border: none !important;
-    /* border: 2px solid red ; */
-    color:#0c4e50;
-    height: 40px;
-    width: 40px;
-    position: relative;
-    margin-left: 35vh;
-}
 .navcart
 {
     /* margin-top: 1vh; */
@@ -256,10 +244,10 @@ p.Beauty {
 }
 
 .panelops p a {
-    text-decoration: none ;
-    color: white ;
+    text-decoration: none;
+    color: white;
 }
-p a:hover
+p.wellness a
 {
     color: #062c2e;
     text-decoration: underline;

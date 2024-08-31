@@ -7,16 +7,38 @@
 header{
     background-color: #24aeb1;
     background-image: url(../images/Main_logo.jpg);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
     height: 15vh;
     width: 100vw;
+   
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
- /* main
+
+.back
+{
+    margin-right: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 10vw;
+    height: 5vh;
+    /* text-align: center;; */
+    /* border: 2px solid red; */
+}
+
+.back:hover
+{
+    color: #054b4c;
+}
+ main
 {
 display: flex;
-} */
+/* justify-content: ; */
+}
 .main_img
 {
     margin: auto;
@@ -41,7 +63,7 @@ display: flex;
     color: #054b4c;
     text-align: center;
     justify-content: center;
-    width: 50vh;
+    width: 22vw;
     height: 50vh;
     background-color: white;
     box-shadow:0px 0px 3.5vw #054b4c;
@@ -113,3 +135,73 @@ p.otp
     margin: 5vh auto;
     font-size: 0.85rem;
 }
+
+@media (max-width: 700px) or (max-height: 400px){
+    .main_img{
+        display: none;
+    }
+    .phone{
+        margin: 10vh auto;
+        width: 55vw;
+        height: 60vh;
+    }
+    .phone .number
+    {
+        /* margin: none; */
+        /* margin-top: 5vh; */
+        width: 180px;
+        display: flex;
+
+    }
+    .phone .number select
+    {
+        justify-content: baseline;
+        text-align: left;
+        width: 50px;
+    }
+    .phone .number input
+    {
+        /* border: 1px solid red; */
+        width: 120px;
+    }
+    main{
+        justify-content: center;
+        margin: auto;
+    }
+    
+}
+@media (max-width:1250px)
+{
+
+}
+
+/* @media (min-width: 768px) {
+    .main_img {
+        width: 40%;
+        height: 60vh;
+        margin-right: 5%;
+    }
+
+    .phone {
+        width: 50%;
+        max-width: none;
+        height: auto;
+        margin-top: 15vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    main {
+        justify-content: space-between;
+    }
+
+    .main_img {
+        width: 45%;
+        height: 70vh;
+    }
+
+    .phone {
+        width: 40%;
+        height: auto;
+    }
+} */
