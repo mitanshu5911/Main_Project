@@ -11,10 +11,6 @@
     
   }
 
-
-
-
-
   *
 {
     margin: 0;
@@ -398,10 +394,17 @@ label{
 
 
 
-
+/* BEAUTY PAGE */
 
 body {
   font-family: Arial, sans-serif;
+  background-image: url(images/background.jpeg);
+  backdrop-filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size:cover;
+  justify-content: center;
+  
+
 }
 
 .card {
