@@ -398,15 +398,15 @@ label{
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url(images/background.jpeg);
+  background-image: url(images/backgound\ image\ 3.webp);
   backdrop-filter: blur(5px);
   background-repeat: no-repeat;
   background-size:cover;
   justify-content: center;
+  /* input[type = radio {color: black}]; */
   
 
 }
-
 .card {
   background-color: white;
   border-radius: 10px;
