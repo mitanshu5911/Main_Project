@@ -506,5 +506,25 @@ body {
 
 
 
-
+footer .f
+{
+ background-color: rgb(221, 236, 236);;
+    /* margin-top: 5vh; */
+    margin-left: 6vw;
+    margin-bottom: 0;
+    display: flex;
+}
+footer .f ul
+{
+    margin-left: 3vw;
+}
+footer .f ul li{
+    list-style-type: none;
+    color: #0a4b4e;
+    font-size: 1rem;
+    margin-top:10px;
+}
+footer .f ul li i{
+    margin-right: 0.5vw;
+}
 
