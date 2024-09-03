@@ -4,14 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <div class="main_navbar">
+            <div class="navbarlogo">
+                <!-- <img clas="mainlogo"src="/images/Main_logo.png" alt="#"> -->
+            </div>
+            <div class="address">
+                <p class="addfirst"> Deliver to</p>
+                <div class="addicon">
+                    <i class="fa-solid fa-location-dot " id="loclogo"></i>
+                    <p class="addsecond"> India </p>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select class="searchselect">
+                    <option> All </option>
+                </select>
+                <input class="searchinput" type="search" placeholder="Search...">
+                <div class="searchicon">
+                  <button type="submit">  <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+
+            <div class="navsign">
+                <div class="sign1">
+                    <a href="../Sign in/Signin.html" class="sign">
+                        <p>Hello, Sign in</p>
+                    </a>
+                </div>
+                <div class="sign2">
+                    <a href="../Sign in/Signin.html" class="sign">
+                        <p>Accounts & lists</p>
+                    </a>
+                </div>
+            </div>
             
+            <div class="navcart">
+                <div class="cart1">
+                    <a href="#" class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+                <div class="cart2">
+                    <a href="#" class="cart">
+                        <p>Cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <a href="#">
+                    <button type="button"><i class="fa-solid fa-user"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="main_panel">
+            <div class="panelops">
+                <p class="Medicines"><a href="MAIN_PROJECT/medicine/index.html">Medicines</a> </p>
+                <p><a href="#">Wellness</a> </p>
+                <p><a href="MAIN_PROJECT/labtest/index.html">Lab Tests</a> </p>
+                <p><a href="#">Doctor</a> </p>
+                <p class="Beauty"><a href="#">Beauty</a> </p>
+            </div>
         </div>
     </header>
+
+
+    
+   
     <div class="form-test">
         <div class="img-test">
         <img src="images/labtest1.avif " width="700px">
@@ -305,7 +371,7 @@
 
     <div class="high-img">
         <div>
-            <img src="images/high1.svg">
+            <img src="images/home.svg">
             <h2>Home Visit</h2>
         </div>
         <div class="high-para">
@@ -316,7 +382,7 @@
     </div>
     <div class="high-img">
         <div>
-            <img src="images/high1.svg">
+            <img src="images/time.svg">
             <h2>Timely and Accurate Reports</h2>
         </div>
         <div class="high-para">
@@ -327,7 +393,7 @@
     </div>
     <div class="high-img">
         <div>
-            <img src="images/high1.svg">
+            <img src="images/safe.svg">
             <h2>Up to 70% OFF</h2>
         </div>
         <div class="high-para">
@@ -345,5 +411,69 @@
 </div>
         
     
+   <footer style=" background-color: rgb(221, 236, 236);; margin-top: 5vh;">
+    <div class="f">
+        <div style="margin-top: 5vh;">
+            <img src="/images/main-img-2.png" alt="logo" width="180vw"  height="150vh">
+        </div>
+        <ul>
+            <li style="list-style: none; font-weight: 600;font-size: 1.35rem; color: #0c4e50;">COMPANY</li>
+            <li>About Medfusion</li>
+            <li>Contact</li>
+            <li>Career</li>
+
+        </ul>
+        <ul>
+            <li style="list-style: none; font-weight: 600;font-size: 1.35rem; color: #0c4e50;">OUR POLICIES</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policies</li>
+            <li>Fees & Payments Policy</li>
+            <li>Shipping & Delivery Policy</li>
+            <li>Return, Refund & Cancellation Policy</li>
+
+
+
+
+        </ul>
+        <ul>
+            <li style="list-style: none; font-weight: 600;font-size: 1.35rem; color: #0c4e50;">CATEGORIES</li>
+           <li>Skincare
+        </li>
+           <li>haircare </li>
+           <li>babycare</li>
+           <li>vitamins</li>
+           <li>sexual wellness
+        </li>
+           <li>Pain relief
+        </li>
+           <li>diabetes care
+        </li>
+           <li>Ayuredic
+        </li>
+           <!-- <li>devices
+        </li>
+           <li>fitness</li>  -->
+        
+            
+
+
+
+        </ul>
+        <ul>
+            <li style="list-style: none; font-weight: 600;font-size: 1.35rem; color: #0c4e50;">SOCIAL</li>
+           <li><i class="fa-brands fa-square-instagram"></i>Instagram
+        </li>
+           <li><i class="fa-brands fa-x-twitter"></i>Twitter </li>
+           <li><i class="fa-brands fa-facebook"></i>Facebook</li>
+           <li><i class="fa-brands fa-linkedin"></i>Linkdin</li>
+           <li><i class="fa-brands fa-youtube"></i>Youtube</li>
+         </ul>
+    </div>
+    <hr style="width: 80vw;margin-left: 10vw;">
+    <div style="text-align: center;">
+        <p>Copyright© 2024. All Rights Reserved.</p>
+    </div>
+
+</footer>
 </body>
 </html>
