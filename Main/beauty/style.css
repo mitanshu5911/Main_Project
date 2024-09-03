@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
     justify-content: center; */
    
     
-  }
+/*   
 
   *
 {
@@ -346,7 +346,7 @@ hr{
 
 }
 label{
-  color: rgb(108, 119, 137); 
+  color: whitesmoke; 
 }
 
 
@@ -398,14 +398,17 @@ label{
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url(images/backgound\ image\ 3.webp);
+   /* background-image: url(images/backgound\ image\ 3.webp);
   backdrop-filter: blur(5px);
   background-repeat: no-repeat;
   background-size:cover;
-  justify-content: center;
+  justify-content: center;  */
   /* input[type = radio {color: black}]; */
   
 
+}
+label{
+  color: whitesmoke; 
 }
 .card {
   background-color: white;
@@ -517,4 +520,4 @@ body {
 
 
 
-
+ */

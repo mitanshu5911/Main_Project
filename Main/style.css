@@ -401,6 +401,115 @@ p a:hover
     font-size: 20px;
     font-weight: bold;
 }
+.offer{
+    display: flex;
+    width: 96vw;
+    /* border: 2px solid red; */
+    margin-left: 1.5vw;
+    margin-top: 4vh;
+}
+.offer .offermedicines
+{
+    background: white;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 1vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.offer .arrow:hover
+{
+    background-color: #f3f2f2;
+}
+.offer .offerwellness
+{
+    background: white;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 2vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.offer .offerbeauty
+{
+    background: white;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 2vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+.offer a{
+    text-decoration: none;
+}
+
+.stock{
+    margin-top:4vh; 
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.stock .stockcart
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: auto; */
+    /* justify-content: space-around; */
+    /* border: 2px solid black; */
+    width: 88%;
+    margin-left: 6%;
+    /* margin-bottom: 1vh; */
+    padding: 20px 0;
+}
+.stock .stockcart .discount-badge {
+    background-color: #24aeb1;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    top: 6.8vh;
+    left: 5.9vw;
+    font-size:14px;
+  }
+  .stock .stockcart .first-card:hover,.stock .stockcart .second-card:hover,.stock .stockcart .third-card:hover, .stock .stockcart .fourth-card:hover
+  {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    
+    
+
+  }
+  .stock .stockcart button{
+    margin-top: 2vh ;width: 16vw;margin-left: 0.5vw; color: #24aeb1;background-color: white;border: 1.5px solid #24aeb1; height: 6vh;border-radius: 20px;
+  }
+  .stock .stockcart button:hover
+  {
+    color: white;
+    background: #24aeb1;
+  }
+
+.carousel-item:first-child.active ~ .carousel-control-prev {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -----------Footer---------- */
 footer .f
@@ -423,3 +532,4 @@ footer .f ul li{
 footer .f ul li i{
     margin-right: 0.5vw;
 }
+
