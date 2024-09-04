@@ -405,13 +405,106 @@ main{
     color: white;
 }
 
+.stock{
+    margin-top:0vh; 
+    /* border: 2px solid red; */
+    width: 100%;
+}
 
+.stock .stockcart
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: auto; */
+    /* justify-content: space-around; */
+    /* border: 2px solid black; */
+    width: 88%;
+    margin-left: 6%;
+    /* margin-bottom: 1vh; */
+    padding-top: 10PX;
+    padding-bottom: 20px;
+}
+.stock .stockcart .discount-badge {
+    background-color: #24aeb1;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    top: 6.8vh;
+    left: 5.9vw;
+    font-size:14px;
+  }
+  .stock .stockcart .first-card:hover,.stock .stockcart .second-card:hover,.stock .stockcart .third-card:hover, .stock .stockcart .fourth-card:hover
+  {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    
+    
 
+  }
+  .stock .stockcart button{
+    margin-top: 2vh ;width: 16vw;margin-left: 0.5vw; color: #24aeb1;background-color: white;border: 1.5px solid #24aeb1; height: 6vh;border-radius: 20px;
+  }
+  .stock .stockcart button:hover
+  {
+    color: white;
+    background: #24aeb1;
+  }
 
+.carousel-item:first-child.active ~ .carousel-control-prev {
+    display: none;
+}
 
+.Consultancy
+{
+    margin: 8vh 10%;
+    display: flex;
+    width: 80%;
+    /* border: 2px solid red; */
+}
+.Consultancy .content
+{
 
+    width: 55%;
+    padding-left: 3vw;
+    /* padding-right: 20px; */
+    padding-top: 1vw;
+    /* border: 2px solid green; */
+    color: #0a4b4e;
+}
+.Consultancy .information
+{
+    background: #24aeb1;
+    margin: 10px 10px;
+    padding: 10px 25px;
+    width: 45%;
+    /* border: 2px solid yellow; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.Consultancy .information button:hover
+{
+    background: white !important;
+    color: #0a4b4e !important;
+}
+input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+ #City,#diseases {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.1 7.1"><path fill="none" stroke="%23000" stroke-width="1.5" d="M0 1l2 2.5L0 6"></path></svg>') no-repeat;
+        background-position: calc(100% - 20px) center;
+        background-size: 10px;
+        background-color: white;
+        padding-right: 30px; /* Ensure there is space for the arrow */
+      }
 
-
+      
 
 
 /* -----------Footer---------- */
