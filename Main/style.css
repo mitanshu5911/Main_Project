@@ -362,6 +362,13 @@ p a:hover
     border-radius: 20px;
     /* border: 2px solid red; */
 }
+.ad
+{
+    margin-top: 5vh;
+    /* border: 5px solid red; */
+    height: 50vh;
+}
+  
 /* .Category .hcategory
 {
     margin-left: 2vw;
@@ -460,7 +467,8 @@ p a:hover
     width: 88%;
     margin-left: 6%;
     /* margin-bottom: 1vh; */
-    padding: 20px 0;
+    padding-top: 10PX;
+    padding-bottom: 20px;
 }
 .stock .stockcart .discount-badge {
     background-color: #24aeb1;
@@ -511,6 +519,7 @@ p a:hover
 
 
 
+
 /* -----------Footer---------- */
 footer .f
 {
@@ -532,4 +541,9 @@ footer .f ul li{
 footer .f ul li i{
     margin-right: 0.5vw;
 }
-
+button.Explore:hover
+{
+    border: 2px solid white !important;
+    color: white !important;
+    background-color: #0b8c98 !important;
+}
