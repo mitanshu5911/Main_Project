@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
-
+    <script src="script.js" defer></script>
 </head>
     
     <title>Document</title>
@@ -26,15 +26,17 @@
                     <p class="addsecond"> India </p>
                 </div>
             </div>
-            <div class="navsearch">
+            <form class="navsearch">
                 <select class="searchselect">
                     <option> All </option>
                 </select>
+              
                 <input class="searchinput" type="search" placeholder="Search...">
                 <div class="searchicon">
                   <button type="submit">  <i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
-            </div>
+            
+            </form>
 
 
             <div class="navsign">
@@ -54,6 +56,7 @@
                 <div class="cart1">
                     <a href="#" class="cart">
                         <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="cart-count" class="cart-count">0</span>
                     </a>
                 </div>
                 <div class="cart2">
@@ -70,7 +73,14 @@
         </div>
         <div class="main_panel">
             <div class="panelops">
-                <p class="Medicines"><a href="MAIN_PROJECT/medicine/index.html">Medicines</a> </p>
+                <p class="Medicines">
+                    <a href="#" id="medicined">Medicines</a>
+                </p>
+                <ul id="medicined-list" style="display: none;">
+                    <li><a href="">Personal Care</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Oral Care</a></li>
+                </ul>
                 <p><a href="#">Wellness</a> </p>
                 <p><a href="MAIN_PROJECT/labtest/index.html">Lab Tests</a> </p>
                 <p><a href="#">Doctor</a> </p>
@@ -78,8 +88,11 @@
             </div>
         </div>
     </header>
+
         <div class="panel"  style="display: none;">
-            <a href="#">Medicine </a>
+
+
+
             <a href="#">Personal care </a>
             <a href="#">Health conditions</a>
             <a href="#">Vitamins ans supplement</a>
@@ -90,7 +103,22 @@
         </div>
         <hr>
     </header>
+
+
+
+
+    <div id="sidebar" class="sidebar">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+         
+        </div>
+        <button id="close-sidebar">Close</button>
+    </div>
+
    <main>
+
+
+
     <div class="main-cont">
 
       <!-- filter div -->
@@ -102,44 +130,48 @@
             <h3> Category</h3>
             <hr>
        <label>
-        <input type="radio" name="fruit" value="banana" >
+        <input type="radio" name="fruit" value="skin" >
           Skin care
       </label>
       <br>
       <br>
       <label>
-        <input type="radio" name="fruit" value="banana">
+        <input type="radio" name="fruit" value="hair">
         Hair care 
       </label>
       <br>
       <br>
       <label>
-        <input type="radio" name="fruit" value="banana">
+        <input type="radio" name="fruit" value="oral">
         oral care
       </label>
       <br>
       <br>
       <label>
-        <input type="radio" name="fruit" value="banana">
+        <input type="radio" name="fruit" value="elder">
         Elderly care 
       </label>
       <br>
       <br>
       <label>
-        <input type="radio" name="fruit" value="banana">
+        <input type="radio" name="fruit" value="baby">
         Baby
       </label>
       <br>
       <br>
-
-
-
         </div>
+
+
+
+
+
+
+
         <div class="filter-category">
             <h3> Sub-Category</h3>
             <hr>
        <label>
-        <input type="radio" name="fruit" value="banana" >
+        <input type="radio" name="fruit" value="skin" >
           Skin cream 
       </label>
       <br>
@@ -215,7 +247,7 @@
 
         <div class="main">
 
-          <div class="card">
+          <div class="card skin">
             <div class="discount-badge">13% OFF</div>
             <img src="images/pc1.avif" alt="Product Image" class="product-image">
             <div class="rating">
@@ -232,12 +264,12 @@
                 <span class="current-price">₹ 604.65</span>
                 <span class="original-price">MRP ₹ 695.00</span>
             </div>
-            <button class="add-to-cart">ADD TO CART</button>
+            <button class="add-to-cart"  data-id="1" data-name="Kera Xl Serum" data-price="604.65">ADD TO CART</button>
         </div>
 
 
        
-        <div class="card">
+        <div class="card hair">
           <div class="discount-badge">13% OFF</div>
           <img src="images/med1.avif" alt="Product Image" class="product-image">
           <div class="rating">
@@ -254,11 +286,11 @@
               <span class="current-price">₹ 684.65</span>
               <span class="original-price">MRP ₹ 695.00</span>
           </div>
-          <button class="add-to-cart">ADD TO CART</button>
-      </div>
+          <button class="add-to-cart"  data-id="2" data-name="Follihair Tablet" data-price="684.65">ADD TO CART</button>
+      </div> 
 
        
-      <div class="card">
+      <div class="card baby">
         <div class="discount-badge">12% OFF</div>
         <img src="images/medextra.avif" alt="Product Image" class="product-image">
         <div class="rating">
@@ -275,12 +307,11 @@
         <div class="price">
             <span class="current-price">₹ 575.65</span>
             <span class="original-price">MRP ₹ 695.00</span>
-        </div>
-        <button class="add-to-cart">ADD TO CART</button>
+        </div> <button class="add-to-cart"  data-id="3" data-name=" Dexolac powder" data-price="575.65">ADD TO CART</button> 
     </div>
 
     
-    <div class="card">
+    <div class="card baby">
       <div class="discount-badge">17% OFF</div>
       <img src="images/med3.avif" alt="Product Image" class="product-image">
       <div class="rating">
@@ -295,13 +326,13 @@
       <p class="marketed-by">Mkt: British Biologicals</p>
       <div class="price">
           <span class="current-price">₹ 804.65</span>
-          <span class="original-price">MRP ₹ 6 95.00</span>
+          <span class="original-price">MRP ₹ 695.00</span>
       </div>
-      <button class="add-to-cart">ADD TO CART</button>
+      <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
   </div>
 
   
-  <div class="card">
+  <div class="card skin">
     <div class="discount-badge">13% OFF</div>
     <img src="images/med4.avif" alt="Product Image" class="product-image">
     <div class="rating">
@@ -318,12 +349,12 @@
         <span class="current-price">₹ 604.65</span>
         <span class="original-price">MRP ₹ 695.00</span>
     </div>
-    <button class="add-to-cart">ADD TO CART</button>
+    <button class="add-to-cart"  data-id="5" data-name="Acne Gel" data-price="604.65">ADD TO CART</button> 
 </div>
 
 
 
-<div class="card">
+<div class="card skin">
   <div class="discount-badge">13% OFF</div>
   <img src="images/med5.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -340,12 +371,12 @@
       <span class="current-price">₹ 604.65</span>
       <span class="original-price">MRP ₹ 695.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="6" data-name="Acne Gel" data-price="604.65">ADD TO CART</button> 
 </div>
 
 
 
-<div class="card">
+<div class="card elder">
   <div class="discount-badge">13% OFF</div>
   <img src="images/med6.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -362,12 +393,12 @@
       <span class="current-price">₹ 604.65</span>
       <span class="original-price">MRP ₹ 695.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
 </div>
 
 
 
-<div class="card">
+<div class="card skin">
   <div class="discount-badge">13% OFF</div>
   <img src="images/med7.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -385,12 +416,12 @@
       <span class="current-price">₹ 694.65</span>
       <span class="original-price">MRP ₹ 695.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
 </div>
 
 
 
-<div class="card">
+<div class="card skin">
   <div class="discount-badge">13% OFF</div>
   <img src="images/med8.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -408,11 +439,11 @@
       <span class="current-price">₹ 908.65</span>
       <span class="original-price">MRP ₹ 695.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
 </div>
 
 
-<div class="card">
+<div class="card skin">
   <div class="discount-badge">23% OFF</div>
   <img src="images/med9.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -429,12 +460,12 @@
       <span class="current-price">₹ 904.65</span>
       <span class="original-price">MRP ₹ 695.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
 </div>
 
 
 
-<div class="card">
+<div class="card hair" >
   <div class="discount-badge">23% OFF</div>
   <img src="images/med10.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -451,13 +482,13 @@
       <span class="current-price">₹ 804.65</span>
       <span class="original-price">MRP ₹ 695.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
 </div>
 
 
 
 
-<div class="card">
+<div class="card hair">
   <div class="discount-badge">15% OFF</div>
   <img src="images/med11.avif" alt="Product Image" class="product-image">
   <div class="rating">
@@ -474,7 +505,7 @@
       <span class="current-price">₹ 504.65</span>
       <span class="original-price">MRP ₹ 390.00</span>
   </div>
-  <button class="add-to-cart">ADD TO CART</button>
+  <button class="add-to-cart"  data-id="4" data-name="Nestle Cereal 300gm" data-price="695.99">ADD TO CART</button> 
 </div>
 
 
@@ -487,7 +518,7 @@
    <footer style=" background-color: rgb(221, 236, 236);; margin-top: 5vh;">
     <div class="f">
         <div style="margin-top: 5vh;">
-            <img src="/images/main-img-2.png" alt="logo" width="180vw"  height="150vh">
+            <img src="" alt="logo" width="180vw"  height="150vh">
         </div>
         <ul>
             <li style="list-style: none; font-weight: 600;font-size: 1.35rem; color: #0c4e50;">COMPANY</li>
